@@ -1,0 +1,192 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze,kwin.upd:animation-speed
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=112,111,110
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=84,164,92
+BackgroundNormal=17,18,20
+DecorationFocus=113,227,123
+DecorationHover=113,227,123
+ForegroundActive=113,227,123
+ForegroundInactive=160,160,160
+ForegroundLink=113,227,123
+ForegroundNegative=182,0,0
+ForegroundNeutral=255,221,0
+ForegroundNormal=218,218,218
+ForegroundPositive=88,175,88
+ForegroundVisited=199,79,79
+
+[Colors:Complementary]
+BackgroundAlternate=17,18,20
+BackgroundNormal=17,18,20
+DecorationFocus=113,227,123
+DecorationHover=113,227,123
+ForegroundActive=113,227,123
+ForegroundInactive=175,176,179
+ForegroundLink=113,227,123
+ForegroundNegative=237,21,21
+ForegroundNeutral=201,206,59
+ForegroundNormal=218,218,218
+ForegroundPositive=17,209,22
+ForegroundVisited=61,174,230
+
+[Colors:Selection]
+BackgroundAlternate=84,164,92
+BackgroundNormal=84,164,92
+DecorationFocus=113,227,123
+DecorationHover=113,227,123
+ForegroundActive=113,227,123
+ForegroundInactive=255,255,255
+ForegroundLink=113,227,123
+ForegroundNegative=182,0,0
+ForegroundNeutral=181,157,0
+ForegroundNormal=255,255,255
+ForegroundPositive=91,181,91
+ForegroundVisited=199,79,79
+
+[Colors:Tooltip]
+BackgroundAlternate=17,18,20
+BackgroundNormal=26,26,26
+DecorationFocus=113,227,123
+DecorationHover=113,227,123
+ForegroundActive=113,227,123
+ForegroundInactive=170,170,170
+ForegroundLink=113,227,123
+ForegroundNegative=171,0,0
+ForegroundNeutral=162,140,0
+ForegroundNormal=218,218,218
+ForegroundPositive=83,165,83
+ForegroundVisited=199,79,79
+
+[Colors:View]
+BackgroundAlternate=17,18,20
+BackgroundNormal=17,18,20
+DecorationFocus=113,227,123
+DecorationHover=113,227,123
+ForegroundActive=113,227,123
+ForegroundInactive=160,160,160
+ForegroundLink=113,227,123
+ForegroundNegative=163,0,0
+ForegroundNeutral=166,144,0
+ForegroundNormal=218,218,218
+ForegroundPositive=75,149,75
+ForegroundVisited=182,73,73
+
+[Colors:Window]
+BackgroundAlternate=17,18,20
+BackgroundNormal=17,18,20
+DecorationFocus=113,227,123
+DecorationHover=113,227,123
+ForegroundActive=113,227,123
+ForegroundInactive=160,160,160
+ForegroundLink=113,227,123
+ForegroundNegative=255,0,0
+ForegroundNeutral=235,204,0
+ForegroundNormal=218,218,218
+ForegroundPositive=111,221,111
+ForegroundVisited=255,101,101
+
+[DirSelect Dialog]
+DirSelectDialog Size=1030,677
+History Items[$e]=file:$HOME/mathmod-11.1-linux64-static,file:$HOME/Vaults,file:$HOME/netrazr,file:$HOME/Documents/Obsidian Vaults/General,file:$HOME/Documents/Obsidian Vaults,file:$HOME/Logos
+
+[General]
+AccentColor=113,227,123
+BrowserApplication=firefox.desktop
+ColorScheme=Ink
+ColorSchemeHash=d4129a565bd3be8b6b49e0e8ff1b6e003b657619
+LastUsedCustomAccentColor=61,174,233
+Name=Artix-dark
+XftAntialias=true
+XftHintStyle=hintfull
+XftSubPixel=rgb
+accentColorFromWallpaper=true
+fixed=Roboto Mono,11,-1,5,50,0,0,0,0,0,Regular
+font=Roboto,11,-1,5,50,0,0,0,0,0,Regular
+menuFont=Roboto,11,-1,5,50,0,0,0,0,0,Regular
+shadeSortColumn=true
+smallestReadableFont=Roboto,11,-1,5,50,0,0,0,0,0,Regular
+toolBarFont=Roboto,11,-1,5,50,0,0,0,0,0,Regular
+widgetStyle=gtk2
+
+[Icons]
+Theme=Papirus-Dark
+
+[KDE]
+ColorScheme=Artix-dark
+LookAndFeelPackage=ink
+ShowDeleteCommand=false
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=false
+SingleClick=false
+contrast=0
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=153
+View Style=Simple
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[Shortcuts]
+Back=Back
+BackwardWord=
+DocumentBack=
+DocumentForward=
+EndOfLine=
+Forward=Forward
+Next=
+Prior=
+Up=
+
+[Toolbar style]
+Highlighting=true
+IconText=IconOnly
+TransparentMoving=false
+
+[WM]
+activeBackground=17,18,20
+activeBlend=17,18,20
+activeFont=Roboto,11,-1,5,50,0,0,0,0,0,Regular
+activeForeground=255,255,255
+inactiveBackground=17,18,20
+inactiveBlend=17,18,20
+inactiveForeground=155,155,155
