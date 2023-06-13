@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/black7375/Firefox-UI-Fix.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "proton-style"]
+	remote = origin
+	merge = refs/heads/proton-style

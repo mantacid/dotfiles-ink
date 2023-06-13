@@ -1,0 +1,18 @@
+/** Import Lepton stylesheet (Content) ****************************************/
+@import url("css/leptonContent.css");
+
+/** Add your custom styles below **********************************************/
+/* recolor newtab page background */
+@-moz-document url("about:newtab"), url("about:home") {
+    body {
+        background-color: rgba(17, 18, 20, 1) !important
+    }
+}
+/* recolor newtab search bar background */
+@-moz-document url("about:newtab"), url("about:home") {
+    #newtab-search-text {
+        background-color: rgba(17, 18, 20, 1) !important;
+        border: 1px solid #424448 !important;
+        border-radius: 30px !important;
+    }
+}

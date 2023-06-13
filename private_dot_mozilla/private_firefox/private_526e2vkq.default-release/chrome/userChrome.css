@@ -1,0 +1,46 @@
+/** Import Lepton stylesheet (Chrome) *****************************************/
+@import url("css/leptonChrome.css");
+
+/*import statements*/
+@import url("ink-modules/tabs.css") screen;
+@import url("ink-modules/urlbar.css") screen;
+@import url("ink-modules/buttons.css") screen;
+@import url("ink-modules/menu-context.css") screen;
+@import url("ink-modules/menu-main.css") screen;
+
+
+/** Add your custom styles below **********************************************/
+
+/*main rules*/
+/* set main background color */
+
+:root {
+tabpanel-background-color: #111214!important;
+--toolbarbutton-border-radius: 20px !important;
+}
+
+toolbar#nav-bar.browser-toolbar {
+background-color: #111214 !important
+}
+
+/* bookmarks bar */
+#PersonalToolbar {
+	background-color: #111214 !important;
+}
+
+/* Enable option to edit bookmark URLs under Add Bookmark (blue star) menu */
+/*
+ * #editBMPanel_locationRow {
+ *   visibility: visible !important;
+ * }
+*/
+
+/* Disable Email Image/Audio/Video and Set as Desktop Background context menu items */
+/*
+ * #context-sendimage,
+ * #context-sendvideo,
+ * #context-sendaudio,
+ * #context-setDesktopBackground {
+ *   display: none !important;
+ * }
+*/
