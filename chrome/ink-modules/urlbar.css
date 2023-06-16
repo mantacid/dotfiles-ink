@@ -1,0 +1,23 @@
+/*urlbar styling*/
+
+#urlbar-input-container:target:focus-within {
+    border-radius: 20px 20px 0 0 !important;
+    border: 0 !important;
+}
+
+#urlbar-background:target, #searchbar:target {
+    border-radius: 20px 20px 0 0 !important;
+    border-bottom: 0 !important;
+}
+
+#urlbar-input-container {
+	border: 1px solid #424448 !important;
+    border-radius: 20px !important;
+}
+
+#urlbar-background, #searchbar {
+	background-color: #111214 !important;
+	border: 1px solid #424448 !important;
+	border-radius: 20px !important;
+}
+

@@ -1,0 +1,30 @@
+/* context menu items */
+/*WIP*/
+#mainPopupSet .menupopup {
+    background-color: #111214 !important;
+}
+
+/***  Firefox Color Hack-on: Color menu popups ***/
+
+/* Apply to the Bookmarks Toolbar */
+#PersonalToolbar menupopup,
+/* Apply to context menus */
+#mainPopupSet menupopup {
+  /* Text: "Toolbar Icons and Text", Background: "Toolbar Color" */
+  --menu-color: #111214 !important;
+  --menu-background-color: var(--toolbar-bgcolor) !important;
+  --menu-border-color: #424448 !important;
+  /* Create a neutral hover background (25% white haze) */
+  --menuitem-hover-background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Apply to the top menu bar */
+#toolbar-menubar menupopup {
+  /* Text: "Background Tab Text Color", Background: "Background Color" */
+  --menu-color: var(--lwt-text-color) !important;
+  --menu-background-color: var(--lwt-accent-color) !important;
+  --menu-border-color: var(--lwt-text-color) !important;
+  /* Create a neutral hover background (25% white haze) */
+  --menuitem-hover-background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
